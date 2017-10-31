@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Site Bookmarker</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css"></link>
+    
+    
+   <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous">
+   </script> 
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.2/umd/popper.min.js></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script type='text/javascript' src='https://code.jquery.com/jquery-1.8.3.js'></script>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker3.min.css">
+  <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.min.js"></script>
+
+<script type='text/javascript'>
+$(function(){
+$('.input-group.date').datepicker({
+  calendarWeeks: true,
+  todayHighlight: true,
+  autoclose: true
+});  
+});
+
+</script>
+  
+
+</head>
+
+<body onLoad="fetchBookmarks()">
+
+
+<div class="container">
+<div class="jumbotron">
+  <div class="container">
+        
+    <h2> <center> Machine Service Schedule </center> </h2> 
+   
+    <div class="row">
+            
+      <div class="col-lg-12">
+            <a class="btn btn-primary" href="index.html">Home</a>
+      <div id="bookmarksResults"></div>
+      <div id="notify"></div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+  
+<footer class="container">
+        <p>
+           <center>
+              Developed By Kamaleshwar  &copy; Remainder 2017
+           </center>
+        </p>
+        </footer>
+        
+    
+<script src="js/main.js"></script>
+
+  </body>
+</html>
